@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    
+    width:400px
+}
+
+.container h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+#login{
+    background-color:#0000ff;
+    display: flex; 
+    align-items:center ;
+    color: white; 
+}
+    
+    .form-control{
+        margin-bottom: 10px;
+        width:400px
+    }
+    
+    
+    
+    
+    .button-image {
+        width: 20px; 
+        height: 20px; 
+        background-color: blue;
+        margin-right:160px;
+        opacity: 0.2;
+      }
+    
+    
+      
+      .container {
+        display: flex;
+    }
+    #loader{
+        display: flex;
+    }
+    #sideBar {
+        width: 200px; /* Set the width of the sidebar */
+    }
+    
+    #loader {
+        flex: 1; /* Take up the remaining space */
+        padding: 20px; /* Add padding to the main content */
+    }
+    
+    .icon {
+        width: 20px; /* Set the width of the icons */
+        height: 20px; /* Set the height of the icons */
+        margin-right: 10px; /* Add some margin to separate the icons from the text */
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        padding: 10px;
+    }
+    
+    /* Style the links if needed */
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    /* Add a hover effect for links */
+    a:hover {
+        color: blue;
+    }
+
+.button-image {
+    width: 20px; 
+    height: 20px; 
+    background-color: blue;
+    margin-right:160px;
+    opacity: 0.2;
+  }
+
+  
+footer{
+    padding-top: 20px;
+    text-align: center;
+}
