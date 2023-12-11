@@ -1,6 +1,7 @@
 <?php
 session_start();
-require "Connection.php";
+require_once "Connection.php";
+
 
 
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

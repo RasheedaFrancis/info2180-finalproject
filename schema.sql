@@ -26,7 +26,7 @@ USE dolphin_crm;
 DROP TABLE IF EXISTS Users;
 CREATE TABLE Users(
     id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
-     title varchar(5) NOT NULL,
+    title varchar(5) NOT NULL,
     firstname varchar(25) NOT NULL,
     lastname varchar(25) NOT NULL,
     email varchar(40) NOT NULL,
@@ -61,4 +61,5 @@ CREATE TABLE Notes (
     created_by int(11) NOT NULL,
     created_at datetime(6) NOT NULL
 ) ENGINE=MyISAM AUTO_INCREMENT=1;
+
 
